@@ -1,0 +1,30 @@
+   98  cd ..
+   99  ls -ltr 
+  100  cd myfirstfolder/
+  101  pwd 
+  102  cd ..
+  103  pwd 
+  104  cd myfirstfolder/
+  105  ls 
+  106  vim sample-shell-script.sh
+  107  chmod 777 sample-shell-script.sh 
+  108  ls -ltr 
+  109  ./sample-shell-script.sh 
+  110  ls
+  111  cd nature 
+  112  ls 
+  113  cd ..
+  114  ls 
+  115  cd myfirstfolder/
+  116  ls
+  117  cd ..
+  118  ls 
+  119  ls -la 
+  120  git add.
+  121  git add .
+  122  git status 
+  123  nproc 
+  124  free 
+  125  top
+  126  history 
+  127  history > cmds-session-1
