@@ -1,0 +1,6 @@
+# InfraWatch AWS Daily Resource Tracker
+# Runs every day at 9:00 AM
+# Logs output into logs/aws-report-YYYY-MM-DD.log
+
+0 9 * * * /home/pruthvi/Documents/Devops_Cs_Resources/2.Linux/Bash_Practice/Bash-Projects/1-InfraWatch/aws-resourse-tracker.sh
+

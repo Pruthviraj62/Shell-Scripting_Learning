@@ -1,0 +1,88 @@
++ echo =========================================
+=========================================
++ echo 'AWS Daily Resource Report'
+AWS Daily Resource Report
+++ date
++ echo 'Date: Saturday 13 December 2025 11:29:20 PM IST'
+Date: Saturday 13 December 2025 11:29:20 PM IST
++ echo =========================================
+=========================================
++ echo 'Print list of s3 buckets'
+Print list of s3 buckets
+./aws-resourse-tracker.sh: line 44: syntax error near unexpected token `newline'
++ echo =========================================
+=========================================
++ echo 'AWS Daily Resource Report'
+AWS Daily Resource Report
+++ date
++ echo 'Date: Saturday 13 December 2025 11:34:14 PM IST'
+Date: Saturday 13 December 2025 11:34:14 PM IST
++ echo =========================================
+=========================================
++ echo 'Print list of s3 buckets'
+Print list of s3 buckets
++ aws s3 ls
++ echo 'Print list of EC2 Instances'
+Print list of EC2 Instances
++ aws ec2 describe-instances
++ jq ' .Reservations[].Instances[].InstanceId'
++ echo 'Print list of lambda functions'
+Print list of lambda functions
++ aws lambda list-functions
+{
+    "Functions": []
+}
++ echo 'Print list of IAM Users'
+Print list of IAM Users
++ aws iam list-users
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "pruthvi-1",
+            "UserId": "AIDARL4HBFVS5PTBDGI2Y",
+            "Arn": "arn:aws:iam::094235602277:user/pruthvi-1",
+            "CreateDate": "2025-11-29T11:22:18+00:00",
+            "PasswordLastUsed": "2025-12-12T11:00:44+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "Rushikesh_da",
+            "UserId": "AIDARL4HBFVSROHP63XGP",
+            "Arn": "arn:aws:iam::094235602277:user/Rushikesh_da",
+            "CreateDate": "2025-11-29T11:24:23+00:00",
+            "PasswordLastUsed": "2025-11-29T11:30:10+00:00"
+        }
+    ]
+}
+=========================================
+AWS Daily Resource Report
+Date: Saturday 13 December 2025 11:37:52 PM IST
+=========================================
+Print list of s3 buckets
+Print list of EC2 Instances
+Print list of lambda functions
+{
+    "Functions": []
+}
+Print list of IAM Users
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "pruthvi-1",
+            "UserId": "AIDARL4HBFVS5PTBDGI2Y",
+            "Arn": "arn:aws:iam::094235602277:user/pruthvi-1",
+            "CreateDate": "2025-11-29T11:22:18+00:00",
+            "PasswordLastUsed": "2025-12-12T11:00:44+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "Rushikesh_da",
+            "UserId": "AIDARL4HBFVSROHP63XGP",
+            "Arn": "arn:aws:iam::094235602277:user/Rushikesh_da",
+            "CreateDate": "2025-11-29T11:24:23+00:00",
+            "PasswordLastUsed": "2025-11-29T11:30:10+00:00"
+        }
+    ]
+}
