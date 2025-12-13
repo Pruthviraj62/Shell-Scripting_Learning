@@ -1,0 +1,13 @@
+2024-12-13 10:00:00 [INFO] System startup initiated. Version 1.2.0
+2024-12-13 10:00:05 [WARNING] Configuration file "app.config" not found, using defaults.
+2024-12-13 10:00:10 [INFO] User 'admin' successfully authenticated from IP: 192.168.1.10
+2024-12-13 10:00:15 [ERROR] Failed to connect to primary database server: Connection timed out. Attempting failover to secondary server.
+2024-12-13 10:00:18 [INFO] Connected to secondary database server.
+2024-12-13 10:00:22 [ERROR] NullPointerException: Cannot access user profile for ID 101. User object is null.
+    at com.example.app.UserService.loadProfile(UserService.java:85)
+    at com.example.app.LoginServlet.doPost(LoginServlet.java:42)
+2024-12-13 10:00:25 [WARNING] Disk space low on /var/log directory. Current usage: 92%.
+2024-12-13 10:00:30 [INFO] Scheduled task 'CleanupLogs' completed successfully.
+2024-12-13 10:00:35 [ERROR] Unauthorized access attempt: User 'guest' tried to access restricted resource "/admin/dashboard". IP: 192.168.1.15
+2024-12-13 10:00:40 [INFO] System shutdown sequence started.
+

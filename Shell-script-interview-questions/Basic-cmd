@@ -1,0 +1,17 @@
+#Basic cmds
+ls 
+cp
+mv
+pwd
+mkdir
+rm
+touch 
+vim
+grep
+curl
+rmdir
+find 
+top
+nproc
+df
+this are some cmds which we use day to day basis
