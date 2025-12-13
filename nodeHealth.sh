@@ -11,6 +11,8 @@ set -x  # Debug mode
 set -e  # exist the script when there is an error 
 set -o  # pipefail (set -e will not errorout when there is pipefail so we have to use this set -o for pipefail)
 
+# same above cmd you can write as set -exo pipefail
+
 df -h
 
 free -g 
