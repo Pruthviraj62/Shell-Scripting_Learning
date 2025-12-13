@@ -1,6 +1,5 @@
 This explains how to enable cron.
 
-Example: cron/README.md
 # Cron Configuration – InfraWatch
 
 This project uses a cron job to automate daily AWS resource reporting.
@@ -17,7 +16,7 @@ This project uses a cron job to automate daily AWS resource reporting.
 
 2.Copy the cron entry from:
 
-  cron/infra-watch.cron
+     cron/infra-watch.cron
 
 
 3.Paste and save.
